@@ -24,7 +24,7 @@ namespace Student_management_application
             CStudent _cStudent = new CStudent();
             #endregion
 
-            #region view MENU
+            #region View MENU
             try
             {
                 while (true)
