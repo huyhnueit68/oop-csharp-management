@@ -251,6 +251,7 @@ namespace Student_management_application.Controller
 
                 // assign info
                 _students.FirstOrDefault(o => (int)o.studentID == studentFilter.studentID).studentName = tempStudent.studentName;
+                _students.FirstOrDefault(o => (int)o.studentID == studentFilter.studentID).semester = tempStudent.semester;
                 _students.FirstOrDefault(o => (int)o.studentID == studentFilter.studentID).courseName = tempStudent.courseName;
 
                 Console.WriteLine(Properties.Resources.UpdateSuccess);

@@ -20,6 +20,11 @@ namespace Student_management_application.Entitis
         public string studentName { get; set; }
 
         /// <summary>
+        /// Semester
+        /// </summary>
+        public int semester { get; set; }
+
+        /// <summary>
         /// Course name
         /// </summary>
         public string courseName { get; set; }
@@ -52,6 +57,9 @@ namespace Student_management_application.Entitis
                 Console.Write(Properties.Resources.StudentName);
                 this.studentName = Console.ReadLine();
 
+                Console.Write(Properties.Resources.Semester);
+                this.semester = Convert.ToInt32(Console.ReadLine());
+
                 Console.Write(Properties.Resources.CouseName);
                 this.courseName = Console.ReadLine();
             }
@@ -73,6 +81,9 @@ namespace Student_management_application.Entitis
                 Console.Write(Properties.Resources.StudentName);
                 this.studentName = Console.ReadLine();
 
+                Console.Write(Properties.Resources.Semester);
+                this.semester = Convert.ToInt32(Console.ReadLine());
+
                 Console.Write(Properties.Resources.CouseName);
                 this.courseName = Console.ReadLine();
             }
@@ -88,6 +99,7 @@ namespace Student_management_application.Entitis
         public void Display()
         {
             Console.Write(this.studentName + "|");
+            Console.Write(this.semester + "|");
             Console.Write(this.courseName + "|");
             Console.Write(this.studentID);
         }

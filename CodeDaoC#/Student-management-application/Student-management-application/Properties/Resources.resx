@@ -171,6 +171,9 @@
   <data name="SelectStudent" xml:space="preserve">
     <value>Select the student ID you want to manipulate: </value>
   </data>
+  <data name="Semester" xml:space="preserve">
+    <value>Semester: </value>
+  </data>
   <data name="SortAsc" xml:space="preserve">
     <value>2. Sort Asc</value>
   </data>

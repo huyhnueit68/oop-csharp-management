@@ -223,6 +223,15 @@ namespace Student_management_application.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Semester: .
+        /// </summary>
+        internal static string Semester {
+            get {
+                return ResourceManager.GetString("Semester", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 2. Sort Asc.
         /// </summary>
         internal static string SortAsc {
